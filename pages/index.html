@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>まいフロントぶろぐ〜</title>
-</head>
-<body>
-    <div>hoge</div>
-</body>
-<footer>
-    <div>hoge</div>
-</footer>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ヘッダーめにゆ -->
+    <header class="header">
+      <div class="logo">ブログサイト</div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#">ユーザー</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <div>
+      <!-- コンテナーをラップする要素 -->
+      <div class="container-center">
+        <div
+          class="rounded-container"
+          onclick="location.href='https://example.com';"
+        >
+          クリックして遷移 1
+        </div>
+        <div
+          class="rounded-container"
+          onclick="location.href='https://example.com';"
+        >
+          クリックして遷移 2
+        </div>
+        <div
+          class="rounded-container"
+          onclick="location.href='https://example.com';"
+        >
+          クリックして遷移 3
+        </div>
+      </div>
+    </div>
+    <!-- フッターーめにゆ -->
+    <footer>
+      <div>hoge</div>
+    </footer>
+
+    <script src="/assets/js/index.js"></script>
+  </body>
 </html>
