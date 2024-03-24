@@ -17,18 +17,28 @@ npm list vue: `vue@3.4.21`
 
 package.json を参照するのもあり。
 
+### その他必要コマンド
+
+- `npm install --save-dev sass-loader sass`: scss 等のインストール
+
 ## デザイン
 
 Zenn のような構成で
-![Example Image](assets/img/zenn.png)
+![Zenn Image](assets/img/zenn.png)
 IO のようなデザインで
-![Example Image](assets/img/io.png)
+![IO Image](assets/img/io.png)
 **ブログの様なサイトを作る**
 
 - 第一回 Git/第二回コード整形/みたいに続けたいので後々はサーバサイドもつけて CRUD をできる様にする
 - DB 構成としてはまず posts テーブルだけ、今後は user をつけたいがまあ後でいいわ
 
 ## 拡張機能
+
+### setting.json について。
+
+**「Command + ,」 で VScode 設定を開いたあと、右上のボタンを押すことで開くことができる**
+vscode_setting.js 参照
+![setting.json for VScode](/readme_images/settingjson.png)
 
 ### フロント/&フォーマット系
 
